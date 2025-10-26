@@ -23,7 +23,7 @@ t. gofood grabfood kode promo go grab shopee food sfood voucher gacoan daget goj
 `;
 
     // 📸 Upload 1 gambar dari repo
-    const mediaId = await client.v1.uploadMedia('1.jpg');
+    const mediaId = await client.v1.uploadMedia('2.jpg');
 
     // 🐦 Kirim tweet dengan teks + gambar
     const tweet = await client.v2.tweet({
@@ -36,5 +36,6 @@ t. gofood grabfood kode promo go grab shopee food sfood voucher gacoan daget goj
     console.error('❌ Gagal kirim tweet:', error);
   }
 })();
+
 
 
