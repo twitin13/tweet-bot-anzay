@@ -13,15 +13,13 @@ const client = new TwitterApi({
   try {
     // 📝 Isi tweet kamu di sini (nanti aku bantu isi sesuai request kamu)
     const textTweet = `
-🥪🍟 Promo resto makin hemat!
-ShopeeFood diskon 70%  ✨
-Min. 30rb → diskon s.d. 50rb
+Shopeefood Diskon 70% s/d 19rb minbel 20K. Resto tertentu, akun tertentu 🍒🥧
 
-👉 Buruan klaim:
-https://spf.shopee.co.id/AKSBCqfFyD
-https://spf.shopee.co.id/AKSBCqfFyD
+Cek dan klaim di resto ini 👇
+https://spf.shopee.co.id/60JHELauva
+https://spf.shopee.co.id/60JHELauva
 
-t. gofood grabfood kode go grab shopee food sfood daget gojek gratis ongkir voucher
+t. gofood grabfood kode promo go grab shopee food sfood voucher gacoan daget gojek gratis ongkir
 `;
 
     // 📸 Upload 1 gambar dari repo
@@ -38,4 +36,5 @@ t. gofood grabfood kode go grab shopee food sfood daget gojek gratis ongkir vouc
     console.error('❌ Gagal kirim tweet:', error);
   }
 })();
+
 
