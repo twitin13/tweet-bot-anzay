@@ -2,7 +2,7 @@ name: Twitter Bot Auto Post - anzay
 
 on:
   schedule:
-    - cron: "20 */2 * * *"  # Jalan tiap 2 jam
+    - cron: "5 */1 * * *"  # Jalan tiap 1 jam
   workflow_dispatch:        # Bisa juga dijalankan manual
 
 jobs:
