@@ -15,9 +15,9 @@ const client = new TwitterApi({
     const textTweet = `
 Klaim vc di halaman restoo🥳
 siapa tau akunnya wangii✨️
-👍 spf.shopee.co.id/6VFQHftOOy
+👍 https://spf.shopee.co.id/1LYTpkfAxQ
 
-gofood grabfood shopeefood kode promo go grab shopee food diskon voucher daget gojek Gary Iskak Raisa 
+gofood grabfood shopeefood pagiii malming malam minggu kode promo go grab shopee food diskon voucher daget gojek  
 `;
 
     // 📸 Upload 1 gambar dari repo
@@ -34,6 +34,7 @@ gofood grabfood shopeefood kode promo go grab shopee food diskon voucher daget g
     console.error('❌ Gagal kirim tweet:', error);
   }
 })();
+
 
 
 
